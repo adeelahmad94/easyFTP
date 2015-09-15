@@ -94,7 +94,6 @@ is targeted for novice developers and providies very minimialistic and easily un
     ```
     
 ## Other Methods : 
-
     public void setFtpClient(FTPClient mFtpClient);       // Set Your own Customized FTPClient
     public String [] listName ();                         // Returns List of Files in current working directory
     public boolean setWorkingDirectory (String dir);      // Sets Working Directory
