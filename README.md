@@ -13,14 +13,13 @@ is targeted for novice developers and providies very minimialistic and easily un
     in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
 
 ## Dependency :
-
-    Apache-commons FTPClient, .jar can be downloaded in from here :
+Apache-commons FTPClient, .jar can be downloaded in from here :
     
-        [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
-
-    How to include in Project : 
+    [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
     
-        [Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
+How to include in Project : 
+    
+    [Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
 
         
     
