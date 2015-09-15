@@ -8,7 +8,7 @@ is targeted for novice developers and providies very minimialistic and easily un
 -Ideal for Novice Developers with no FTP background Knowledge and experiance.
 -Demo application Source Code Included.
 
-![alt tag](http://s4.postimg.org/izti7qhwd/image.png)    ![alt tag](http://s4.postimg.org/izti7qhwd/image.png)
+![alt tag](http://s8.postimg.org/wc2z7xqnp/image.png)         ![alt tag](http://s16.postimg.org/e1202pghx/image.png)
 
 # USAGE : 
 All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
