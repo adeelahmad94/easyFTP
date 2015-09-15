@@ -16,23 +16,20 @@ is targeted for novice developers and providies very minimialistic and easily un
 
     Apache-commons FTPClient, .jar can be downloaded in from here :
     
-        (http://commons.apache.org/proper/commons-net/download_net.cgi)
+        http://commons.apache.org/proper/commons-net/download_net.cgi
 
-    
-    
     How to include in Project : 
     
         http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient
-        (http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
-    
+
         
     
 ## Connecting to FTP Server :
     
     Method : 
-    ```java
+```java
     public void connect(String Address, String userName, String password); //using Default port 21
-    ```
+```
     
     
 ## Uploading to FTP Server :
