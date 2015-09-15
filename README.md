@@ -16,11 +16,11 @@ is targeted for novice developers and providies very minimialistic and easily un
 
     Apache-commons FTPClient, .jar can be downloaded in from here :
     
-        [Apache Commons FTPClient ](http://commons.apache.org/proper/commons-net/download_net.cgi)
+        [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
 
     How to include in Project : 
     
-        [ Stackoverflow : how to include .jar in project ?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
+        [Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
 
         
     
