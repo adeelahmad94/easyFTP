@@ -12,30 +12,41 @@ is targeted for novice developers and providies very minimialistic and easily un
     All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed
     in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
 
-# Dependency :
-    Apache-commons FTPClient, .jar can be downloaded in from here :
+## Dependency :
+
+    build.gradle :
     
+    Apache-commons FTPClient, .jar can be downloaded in from here :
+    ```
         http://commons.apache.org/proper/commons-net/download_net.cgi
+    ```
     
     How to include in Project : 
-    
+    ```
         http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient
+    ```
+        
     
-# Connecting to FTP Server :
+## Connecting to FTP Server :
     
     Method : 
-        
+    ```    
     public void connect(String Address, String userName, String password); //using Default port 21
+    ```
     
-    
-# Uploading to FTP Server :
+## Uploading to FTP Server :
     
     Methods :
+    ```
     public void uploadFile(String uri); //By giving File Path of File existing on Device , to be uploaded.
+    ```
     or
+    ```
     public void uploadFile(InputStream srcFileStream, String name);  //By passing InputFileStream and FileName.Extention
+    ```
     
-    //Example of Uploading some Resource Image (existing in res/drawable)
+    Example of Uploading some Resource Image (existing in res/drawable)
+    ```
     
     class uploadTask extends AsyncTask<String, Void, String> {
     @Override
@@ -54,14 +65,17 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         }
     }
+    ```
     
 # Downloading to From Server :
     
     Methods :
+    ```
     public void downloadFile(String TargetFilePath, String destination);
+    ```
     
-    //Example of Downloading Image (existing on Files/Uploads)
-
+    Example of Downloading Image (existing on Files/Uploads)
+```
     class downloadTask extends AsyncTask<String, Void, String> {
     @Override
         protected String doInBackground(String... params) {
@@ -77,9 +91,10 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         
     }
+    ```
     
-# Other Methods : 
-
+## Other Methods : 
+```
     public void setFtpClient(FTPClient mFtpClient);       // Set Your own Customized FTPClient
     public String [] listName ();                         // Returns List of Files in current working directory
     public boolean setWorkingDirectory (String dir);      // Sets Working Directory
@@ -88,3 +103,4 @@ is targeted for novice developers and providies very minimialistic and easily un
     public void setTimeout (int seconds);                 // Sets Connection timout , default is 10 secs.
     public boolean makeDir(String dir);                   // Creates Directory on server at given path 
     public void disconnect();                             // Disconnects FTPClient
+    ```
