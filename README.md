@@ -16,14 +16,14 @@ is targeted for novice developers and providies very minimialistic and easily un
 
     Apache-commons FTPClient, .jar can be downloaded in from here :
     
-        - [DotShare](http://commons.apache.org/proper/commons-net/download_net.cgi)
+        (http://commons.apache.org/proper/commons-net/download_net.cgi)
 
     
     
     How to include in Project : 
     
         http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient
-        - [DotShare](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
+        (http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
     
         
     
@@ -94,7 +94,8 @@ is targeted for novice developers and providies very minimialistic and easily un
     }
     ```
     
-## Other Methods : 
+## Other Methods :
+
 ```java
     public void setFtpClient(FTPClient mFtpClient);       // Set Your own Customized FTPClient
     public String [] listName ();                         // Returns List of Files in current working directory
@@ -106,7 +107,7 @@ is targeted for novice developers and providies very minimialistic and easily un
     public void disconnect();                             // Disconnects FTPClient
   ```
   
-  ## LICENSE 
+## LICENSE 
   Copyright 2015-2016 ADEEL AHMAD
 
     Licensed under the Apache License, Version 2.0 (the "License");
