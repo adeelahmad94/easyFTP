@@ -35,17 +35,17 @@ is targeted for novice developers and providies very minimialistic and easily un
 ## Uploading to FTP Server :
     
     Methods :
-    ```java
+```java
     public void uploadFile(String uri); //By giving File Path of File existing on Device , to be uploaded.
-    ```
+```
     OR
-    ```java
+```java
     public void uploadFile(InputStream srcFileStream, String name);  //By passing InputFileStream and          //FileName.Extention
-    ```
+```
     
     
     Example of Uploading some Resource Image (existing in res/drawable)
-    ```java
+```java
     class uploadTask extends AsyncTask<String, Void, String> {
     @Override
         protected String doInBackground(String... params) {
@@ -63,14 +63,14 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         }
     }
-    ```
+```
     
 ## Downloading to From Server :
     
     Methods :
-    ```java
+```java
     public void downloadFile(String TargetFilePath, String destination);
-    ```
+```
     
     Example of Downloading Image (existing on Files/Uploads)
 ```java
@@ -89,7 +89,7 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         
     }
-    ```
+```
     
 ## Other Methods :
 
@@ -102,7 +102,7 @@ is targeted for novice developers and providies very minimialistic and easily un
     public void setTimeout (int seconds);                 // Sets Connection timout , default is 10 secs.
     public boolean makeDir(String dir);                   // Creates Directory on server at given path 
     public void disconnect();                             // Disconnects FTPClient
-  ```
+```
   
 ## LICENSE 
   Copyright 2015-2016 ADEEL AHMAD
