@@ -20,7 +20,8 @@ Apache-commons FTPClient, .jar can be downloaded in from here [Apache Commons FT
 [Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
 
         
-    
+## Testing :
+You can use your public FTP Servers for testing like [This one](https://www.swfwmd.state.fl.us/data/ftp/)
 ## Connecting to FTP Server :
     
     Method : 
