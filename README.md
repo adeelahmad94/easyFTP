@@ -17,36 +17,33 @@ is targeted for novice developers and providies very minimialistic and easily un
     build.gradle :
     
     Apache-commons FTPClient, .jar can be downloaded in from here :
-    ```
+    
         http://commons.apache.org/proper/commons-net/download_net.cgi
-    ```
+    
     
     How to include in Project : 
-    ```
+    
         http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient
-    ```
+    
         
     
 ## Connecting to FTP Server :
     
     Method : 
-    ```    
+    
     public void connect(String Address, String userName, String password); //using Default port 21
-    ```
+    
     
 ## Uploading to FTP Server :
     
     Methods :
-    ```
-    public void uploadFile(String uri); //By giving File Path of File existing on Device , to be uploaded.
-    ```
-    or
-    ```
-    public void uploadFile(InputStream srcFileStream, String name);  //By passing InputFileStream and FileName.Extention
-    ```
     
-    Example of Uploading some Resource Image (existing in res/drawable)
-    ```
+    public void uploadFile(String uri); //By giving File Path of File existing on Device , to be uploaded.
+    OR
+    public void uploadFile(InputStream srcFileStream, String name);  //By passing InputFileStream and FileName.Extention
+    
+    
+    //Example of Uploading some Resource Image (existing in res/drawable)
     
     class uploadTask extends AsyncTask<String, Void, String> {
     @Override
@@ -65,17 +62,17 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         }
     }
-    ```
+    
     
 ## Downloading to From Server :
     
     Methods :
-    ```
+    
     public void downloadFile(String TargetFilePath, String destination);
-    ```
+    
     
     Example of Downloading Image (existing on Files/Uploads)
-```
+
     class downloadTask extends AsyncTask<String, Void, String> {
     @Override
         protected String doInBackground(String... params) {
@@ -91,7 +88,7 @@ is targeted for novice developers and providies very minimialistic and easily un
             }
         
     }
-    ```
+    
     
 ## Other Methods : 
     public void setFtpClient(FTPClient mFtpClient);       // Set Your own Customized FTPClient
