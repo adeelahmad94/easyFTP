@@ -9,17 +9,13 @@ is targeted for novice developers and providies very minimialistic and easily un
 -> Demo application Source Code Included.
 
 # USAGE : 
-    All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed
-    in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
+All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
 
 ## Dependency :
-Apache-commons FTPClient, .jar can be downloaded in from here :
+Apache-commons FTPClient, .jar can be downloaded in from here [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
     
-    [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
-    
-How to include in Project : 
-    
-    [Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
+###How to include in Project : 
+[Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
 
         
     
