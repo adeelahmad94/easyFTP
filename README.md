@@ -8,6 +8,10 @@ is targeted for novice developers and providies very minimialistic and easily un
 * Ideal for Novice Developers with no FTP background Knowledge and experiance.
 * Demo application Source Code Included.
 
+# Demo :
+You can [Download APK](http://www.mediafire.com/download/aqv09p5e9z7uvk3/app-debug.apk) for testing.
+http://www.mediafire.com/download/aqv09p5e9z7uvk3/app-debug.apk
+
 ![alt tag](http://s8.postimg.org/wc2z7xqnp/image.png)         ![alt tag](http://s16.postimg.org/e1202pghx/image.png)
 
 # USAGE : 
