@@ -105,7 +105,10 @@ allprojects {
         
     }
 ```
-    
+## Compression (Mode-Z) : 
+
+You can send a File in compress mode which can reduce size of certain files to speed up transfers. [Read more about it]( http://stackoverflow.com/questions/26420836/does-apache-ftp-client-compress-files-while-transfer)
+
 ## Other Methods :
 
 ```java
