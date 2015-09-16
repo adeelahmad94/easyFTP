@@ -1,5 +1,4 @@
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyFTP-green.svg?style=flat)](https://android-arsenal.com/details/1/2499)[![Bintray](https://api.bintray.com/packages/adeel-ahmad/maven/easyFTP/images/download.svg)
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyFTP-green.svg?style=flat)](https://android-arsenal.com/details/1/2499)[![Bintray](https://api.bintray.com/packages/adeel-ahmad/maven/easyFTP/images/download.svg) ](https://bintray.com/adeel-ahmad/maven/easyFTP/_latestVersion)
 # EasyFTP
 A Simple Wrapper Class for Apache-commons FTPClient to Easily Upload/Download Any kind of File over FTP. This Library
 is targeted for novice developers and providies very minimialistic and easily understandable Interface for FTP usage.
