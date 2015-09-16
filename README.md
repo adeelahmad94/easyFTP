@@ -8,11 +8,13 @@ is targeted for novice developers and providies very minimialistic and easily un
 * Ideal for Novice Developers with no FTP background Knowledge and experiance.
 * Demo application Source Code Included.
 
-# Demo :
+# Demo & Testing :
 You can [Download APK](http://www.mediafire.com/download/aqv09p5e9z7uvk3/app-debug.apk) for testing.
 
 
 ![alt tag](http://s8.postimg.org/wc2z7xqnp/image.png)         ![alt tag](http://s16.postimg.org/e1202pghx/image.png)
+
+You can use your public FTP Servers for testing like [This one](https://www.swfwmd.state.fl.us/data/ftp/)
 
 # USAGE : 
 All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
@@ -37,8 +39,6 @@ allprojects {
 }
 ```
 
-## Testing :
-You can use your public FTP Servers for testing like [This one](https://www.swfwmd.state.fl.us/data/ftp/)
 ## Connecting to FTP Server :
     
     Method : 
