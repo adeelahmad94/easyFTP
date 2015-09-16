@@ -13,13 +13,26 @@ is targeted for novice developers and providies very minimialistic and easily un
 # USAGE : 
 All methods of library Throw Exceptions to be handeled in method-calling body. FTP operations should be performed in ASYNCTASK ( UI independent Thread ). Several use cases are discussed below :
 
-## Dependency :
-Apache-commons FTPClient, .jar can be downloaded in from here [Apache Commons FTPClient](http://commons.apache.org/proper/commons-net/download_net.cgi)
-    
-###How to include .jar in Project : 
-[Stackoverflow : how to include .jar in project?](http://stackoverflow.com/questions/8280594/how-to-import-org-apache-commons-net-ftp-ftpclient)
+### Add this to your build.gradle dependenies of your module :
+```java
 
-        
+dependencies {
+
+    compile 'com.adeel:easyFTP:1.0'
+    //...other dependencies 
+}
+```
+Make sure that your top level build.gradle has JCenter() repo :
+
+```java
+allprojects {
+    repositories {
+        jcenter()
+        //...other repos.
+    }
+}
+```
+
 ## Testing :
 You can use your public FTP Servers for testing like [This one](https://www.swfwmd.state.fl.us/data/ftp/)
 ## Connecting to FTP Server :
