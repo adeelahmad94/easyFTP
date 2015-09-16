@@ -9,7 +9,7 @@ is targeted for novice developers and providies very minimialistic and easily un
 * Demo application Source Code Included.
 
 # Demo & Testing :
-You can [Download APK](http://www.mediafire.com/download/aqv09p5e9z7uvk3/app-debug.apk) for testing.
+You can [Download APK](http://www.mediafire.com/download/aqv09p5e9z7uvk3/app-debug.apk) for testing. This Demo app. will upload a test.png image file on specified server and downloads specified file to your device for server.
 
 
 ![alt tag](http://s8.postimg.org/wc2z7xqnp/image.png)         ![alt tag](http://s16.postimg.org/e1202pghx/image.png)
