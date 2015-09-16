@@ -3,10 +3,10 @@ A Simple Wrapper Class for Apache-commons FTPClient to Easily Upload/Download An
 is targeted for novice developers and providies very minimialistic and easily understandable Interface for FTP usage.
 
 # FEATURES :
-*Simple and Minimialistic with Default Configurations.
-*Totally Customizable (with provisional Access to Apache-commons FTPClient Methods).
-*Ideal for Novice Developers with no FTP background Knowledge and experiance.
-*Demo application Source Code Included.
+* Simple and Minimialistic with Default Configurations.
+* Totally Customizable (with provisional Access to Apache-commons FTPClient Methods).
+* Ideal for Novice Developers with no FTP background Knowledge and experiance.
+* Demo application Source Code Included.
 
 ![alt tag](http://s8.postimg.org/wc2z7xqnp/image.png)         ![alt tag](http://s16.postimg.org/e1202pghx/image.png)
 
