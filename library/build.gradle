@@ -1,12 +1,3 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
-    }
-}
-
 apply plugin: 'com.android.library'
 
 android {
@@ -32,17 +23,3 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile files('libs/commons-net-3.3.jar')
 }
-
-// This is the actual solution, as in http://stackoverflow.com/a/19037807/1002054
-task clearJar(type: Delete) {
-    delete 'build/outputs/easyFTP.jar'
-}
-
-task makeJar(type: Copy) {
-    from('build/intermediates/bundles/release/')
-    into('build/outputs/')
-    include('classes.jar')
-    rename ('classes.jar', 'easyFTP.jar')
-}
-
-makeJar.dependsOn(clearJar, build)
