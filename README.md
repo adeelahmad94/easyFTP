@@ -71,6 +71,7 @@ allprojects {
                 boolean status=false;
                 status=ftp.setWorkingDirectory("Files/Uploads/Images"); // if User say provided any Destination then Set it , otherwise
                                                                         // Upload will be stored on Default /root level on server
+                InputStream is=getResources().openRawResource(+R.drawable.easyftptest);
                 ftp.uploadFile(is,"test.png");
                 return new String("Upload Successful");
             }catch (Exception e){
