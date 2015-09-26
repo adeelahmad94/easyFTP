@@ -104,21 +104,23 @@ public class easyFTP {
         catch (IOException e) {
             throw e;
         }
-    } //Passing InputStream and fileName
+    } 
 
-    public void uploadFile(String uri) throws  Exception{
+ //Passing Local File path/Uri
+   public void uploadFile(String uri,String name) throws  Exception{
         try {
             File file = new File(uri);
             mFtpClient.setFileType(org.apache.commons.net.ftp.FTP.BINARY_FILE_TYPE);
             FileInputStream srcFileStream = new FileInputStream(file);
-            boolean status = mFtpClient.storeFile(file.getName(), srcFileStream);
+            boolean status = mFtpClient.storeFile(name, srcFileStream);
             Log.e("Status", String.valueOf(status));
             srcFileStream.close();
         } catch (Exception e) {
             throw e;
         }
-    } //Passing Local File path/Uri
+    }
 
+//Passing InputStream and fileName
     public void uploadFile(InputStream srcFileStream, String name) throws  Exception{
         try {
             mFtpClient.setFileType(org.apache.commons.net.ftp.FTP.BINARY_FILE_TYPE);
